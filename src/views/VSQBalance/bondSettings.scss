@@ -1,0 +1,95 @@
+@import 'styles/_colors.scss';
+
+#hades {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  background-color: #55555555;
+
+  .ohm-popover {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+    backdrop-filter: blur(100px);
+
+    h3 {
+      align-self: center;
+      justify-self: center;
+      width: 75%;
+      text-align: center;
+    }
+    label {
+      margin: 20px 10px 4px 10px;
+    }
+    .help-text {
+      margin: 10px;
+    }
+  }
+  .mobile .ohm-popover {
+    max-width: 400px;
+  }
+
+  .hades-title {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    color: #212121;
+  }
+
+  .cross-wrap {
+    display: flex;
+    // background-color: #F2F2F2;
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .card-content {
+    margin: 0 30px;
+    width: auto;
+    // background-color: #F2F2F2;
+    .input-label {
+      font-weight: 200;
+      font-size: 20px;
+      color: #31bc9e;
+    }
+
+    .percent {
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    .help-text {
+      margin: 5px 0;
+
+      .text-bond-desc {
+        font-weight: 300;
+        font-size: 12px;
+        color: #ababab;
+      }
+    }
+  }
+}
+
+.bond-input {
+  border: 1px solid;
+  border-radius: 10px;
+  outline: none;
+
+  .MuiOutlinedInput-input {
+    font-size: 16px;
+    color: #212121;
+    font-weight: 200;
+  }
+
+  .stake-input-btn {
+    cursor: pointer;
+
+    p {
+      font-weight: 200;
+      font-size: 18px;
+    }
+  }
+}

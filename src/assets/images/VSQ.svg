@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="98" height="98" viewBox="0 0 98 98">
+  <g id="Group_6" data-name="Group 6" transform="translate(-1009 -566)">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="49" cy="49" r="49" transform="translate(1009 566)" fill="#31cb9e"/>
+    <g id="VESQ_Logo_1_" data-name="VESQ Logo (1)" transform="translate(1036.307 583.698)">
+      <path id="Path_12" data-name="Path 12" d="M205.257,350.42h-7.04a3.922,3.922,0,0,0-2.746,1.154l-5.233,5.2a3.9,3.9,0,0,1-5.524,0h0a3.9,3.9,0,0,0-6.664,2.764v18.087a3.9,3.9,0,0,0,6.664,2.76l23.3-23.3a3.9,3.9,0,0,0-2.76-6.669Z" transform="translate(-165.777 -318.931)" fill="#fff"/>
+      <path id="Path_13" data-name="Path 13" d="M184.764,363.218l9.044,9.044a3.9,3.9,0,0,1,0,5.524l-9.044,9.043a3.9,3.9,0,0,1-6.664-2.76V365.982a3.9,3.9,0,0,1,6.664-2.764Z" transform="translate(-165.805 -325.374)" fill="#fff"/>
+      <path id="Path_14" data-name="Path 14" d="M154.515,311.129h7.04a3.918,3.918,0,0,0,2.76-1.14l5.215-5.215a3.9,3.9,0,0,1,5.524,0h0a3.909,3.909,0,0,0,6.669-2.764V283.922a3.9,3.9,0,0,0-6.669-2.76l-23.3,23.3a3.909,3.909,0,0,0,2.764,6.669Z" transform="translate(-150.61 -280.016)" fill="#fff"/>
+      <path id="Path_15" data-name="Path 15" d="M192.647,304.773l-9.061-9.044a3.9,3.9,0,0,1,0-5.524l9.044-9.044a3.9,3.9,0,0,1,6.669,2.76v18.087a3.909,3.909,0,0,1-6.651,2.764Z" transform="translate(-168.204 -280.016)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

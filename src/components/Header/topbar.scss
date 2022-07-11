@@ -1,0 +1,79 @@
+@import 'styles/_colors.scss';
+a {
+  color: #fff;
+}
+a.active {
+  color: #31cb9e;
+}
+
+.dapp-topbar {
+  width: 100%;
+  align-items: center;
+  button {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    // margin: 6px !important;
+    min-width: fit-content !important;
+    border: solid 1px #31cb9e;
+    border-radius: 10px;
+    &#hamburger {
+      padding: 11px !important;
+    }
+    &.toggle-button {
+      padding: 9.5px !important;
+    }
+    &:hover {
+      background-color: #323232;
+    }
+  }
+}
+.tablet .dapp-topbar {
+  justify-content: space-between;
+}
+.pending-txn-container {
+  display: flex;
+  align-items: center;
+
+  .MuiButton-label {
+    margin-right: 0;
+    transition: all 0.33s ease-out;
+  }
+}
+#ohm-popper-pending {
+  .MuiPaper-root.ohm-menu {
+    a {
+      padding-right: 20px !important;
+    }
+  }
+}
+.caret-down {
+  position: absolute;
+  right: 0.4rem;
+}
+.hovered-button {
+  .MuiButton-label {
+    margin-right: 0.5rem;
+    transition: all 0.33s ease-out;
+  }
+}
+
+.connect-button {
+  // background: $otter-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  border-radius: 10px;
+  padding: 0 30px;
+  cursor: pointer;
+
+  p {
+    font-weight: 100;
+    font-size: 15px;
+  }
+}
+
+.wallet-menu {
+  margin: 5px;
+  width: 90px;
+}

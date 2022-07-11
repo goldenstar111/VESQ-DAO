@@ -1,0 +1,264 @@
+@import 'styles/_colors.scss';
+
+#choose-bond-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+  .ohm-card .bond-hero h4 {
+    font-weight: 600 !important;
+
+    .MuiSkeleton-root {
+      margin: auto;
+    }
+  }
+  .ohm-logo-bg {
+    margin-left: 0;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+  }
+
+  .bond-data-card {
+    margin: auto !important;
+    padding: 20px;
+    .bond-pair {
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 15px;
+      .MuiBox-root {
+        margin-right: 20px;
+      }
+      .bond-name {
+        svg {
+          margin-left: 5px;
+          vertical-align: middle;
+          font-size: 15px;
+        }
+      }
+    }
+    .data-row {
+      margin-bottom: 13px;
+
+      .bond-price {
+        display: flex;
+        align-items: center;
+        color: #27272e;
+        svg {
+          margin-right: 5px;
+        }
+      }
+    }
+    .bond-link {
+      margin-top: 10px;
+      text-align: center;
+      a {
+        width: 96%;
+      }
+    }
+  }
+
+  .currency-icon {
+    display: inline-block;
+    min-width: 15px;
+  }
+
+  .MuiTable-root {
+    margin: 10px 0px;
+  }
+
+  .MuiTableRow-head {
+    .MuiTableCell-alignLeft {
+      padding-left: 20px;
+    }
+  }
+
+  .MuiTableCell-root {
+    p {
+      font-weight: 100;
+      font-size: 20px;
+      color: #ababab;
+      margin: 0 !important;
+      display: flex !important;
+      align-items: center;
+      justify-content: space-evenly;
+      white-space: nowrap;
+      img {
+        margin-right: 3px;
+      }
+    }
+    &.MuiTableCell-alignLeft {
+      display: flex;
+    }
+  }
+
+  .MuiTableBody-root .MuiTableRow-root .MuiTableCell-alignLeft {
+    justify-content: end;
+    div.ohm-pairs {
+      width: 33%;
+      vertical-align: middle !important;
+      align-items: center !important;
+      justify-content: center !important;
+      margin-bottom: 0 !important;
+      .ohm-pairs div.bond-name p,
+      .ohm-pairs svg {
+        align-self: center !important;
+        line-height: 100% !important;
+        font-weight: bold !important;
+        margin-bottom: 0em !important;
+        padding: 0 !important;
+        font-family: inherit;
+        vertical-align: text-top !important;
+      }
+      .ohm-logo-bg {
+        margin-left: 0;
+        border-radius: 20px;
+        height: 40px;
+        width: 40px;
+      }
+    }
+    div.bond-name {
+      width: 60%;
+      margin-left: 20px !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+      align-items: flex-start;
+      p {
+        margin-bottom: unset !important;
+        line-height: 140% !important;
+      }
+      svg {
+        margin-left: 3px !important;
+        font-size: 1.2em !important;
+      }
+    }
+  }
+}
+
+.bond-title {
+  font-size: 24px;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+
+  &-span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
+
+.bond-hero {
+  .bond-hero-title {
+    margin-top: 57px;
+    color: #31cb9e;
+    font-weight: 200;
+    font-size: 18px;
+    margin-bottom: 2px;
+  }
+
+  .bond-hero-value {
+    color: #fff;
+    font-weight: 200;
+    font-size: 37px;
+    line-height: 60px;
+  }
+}
+
+.bond-table-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.bond-name-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ababab;
+}
+
+.bond-lp-add-liquidity {
+  // color: $otter-blue !important;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.bond-table-btn {
+  // background: rgba(255, 255, 255, 0.2);
+  // border: 1px solid #2c276d;
+  border-radius: 10px;
+  padding: 6px 35.5px;
+  text-align: center;
+
+  p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+
+// @media screen and (max-width: 417px) {
+//   .bond-hero-title {
+//     font-size: 14px !important;
+//   }
+
+//   .bond-hero-value {
+//     font-size: 16px !important;
+//   }
+// }
+
+.ohm-card-container {
+  width: 100%;
+}
+
+.circle-treasury {
+  border: solid 3px;
+  border-radius: 50% 50%;
+  width: 220px;
+  height: 220px;
+  justify-content: center;
+}
+
+.bond-content {
+  font-size: 18px;
+  font-weight: 300;
+  color: #f2f2f2;
+  padding-bottom: 10px;
+}
+
+.mainbox {
+  background-color: #ffffff;
+  border-radius: 10px;
+  // margin: 13px 10px 13px 10px;
+  position: relative;
+  top: -90px;
+  max-width: 1000px;
+}
+
+thead {
+  border-bottom: solid 1px #e6e6e6;
+}
+
+.grey_dark {
+  color: #27272e;
+}
+
+.gentle-background {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 30px;
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+}
